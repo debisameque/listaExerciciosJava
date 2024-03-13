@@ -10,13 +10,13 @@ public class Q23 {
         System.out.println("\nDigite outro número: ");
         double numero2 = in.nextInt();
 
-
         System.out.println("\n1 - Soma");
         System.out.println("2 - Subtração");
         System.out.println("3 - Multiplicação");
         System.out.println("4 - Divisão");
-        System.out.println("\nDigite o número da operação que deseja fazer com os números " + numero1 + " e " + numero2 + " passados: ");
-        
+        System.out.println("\nDigite o número da operação que deseja fazer com os números " + numero1 + " e " + numero2
+                + " passados: ");
+
         int operacao = in.nextInt();
         in.close();
 
